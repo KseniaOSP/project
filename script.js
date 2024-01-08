@@ -1,9 +1,17 @@
 "use strict";
 
-const category = 'toys';
+let incr = 10,
+    decr = 10;
 
-console.log(`https://someurl.com/${category}/5`);
+incr++;
+decr--;
 
-const user = 'Ivan';
+console.log(incr);
+console.log(decr);
 
-alert(`Hello, ${user}`);
+console.log(4*2 == '8');
+
+const isChecked = false,
+      isClosed = false;
+
+console.log(isChecked || isClosed);
